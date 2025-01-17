@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festival Culinário</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+ 
+
+</head>
+<body>
+  <header>
+    <nav id="navbar" >
+      <i class="fa-solid fa-utensils" id="navlogo"><span class="logowrite">FESTIVAL BRASILEIRO</span></i> 
+    
+
+    <ul id="navlist">
+    
+        <li class="nav-item active">
+          <a href="#inicio">Início</a>
+        </li>
+        <li class="nav-item">
+          <a href="#sobreoevento">Sobre o evento</a>
+        </li>
+        <li class="nav-item">
+          <a href="#cardapio">Cardápio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#testimonials">Depoimentos</a>
+        </li>
+     
+        
+    </ul>
+
+    <button class="button-contact">
+      <a href="tel: +55 886885888">Entre em contato</a>
+    </button>
+   
+    <button id="menubar"><i class="fa-solid fa-bars"></i></button> 
+
+  </nav>
+
+      <div id="menumobile"> 
+
+      <ul id="navlist-mobile">
+  
+        <li class="navitem-mobile">
+          <a href="#">Início</a>
+        </li>
+        <li class="navitem-mobile">
+          <a href="#">Sobre o evento</a>
+        </li>
+        <li class="navitem-mobile">
+          <a href="#">Cardápio</a>
+        </li>
+        <li class="navitem-mobile">
+          <a href="#">Depoimentos</a>
+        </li>
+        
+        <button class="button-contact-mobile">
+          <a href="tel: +55 886885888">Entre em contato</a>
+        </button>
+  
+    </ul>
+  
+   
+</div>
+  </header>
+
+
+  <main id="content">
+    <section id="inicio">
+     <div id="cta">
+      <h1 class="title">O melhor festival  <span>brasileiro</span></h1>
+
+      <p class="description">
+        O festival que você procura retornou trazendo <br> os sabores brasileiros com toda força, venha se deliciar.
+      </p>
+
+      <div class="cta_buttons">
+        <a href="">Ver cardápio</a>
+
+        <a href="tel: +55 222288888"><span><i id="iconphone" class ="fa-solid fa-phone"></i></span> +55 8986-5253</a>
+
+      </div>
+
+      <div class="sociais_buttons">
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+
+     </div> 
+     
+     <div id="banner"><img src="imagens/comidas.jpg" alt="Comidas típicas brasileiras"></div>
+
+    </section>
+
+    <section id="sobreoevento">
+      <div id="conteudo">
+        <div id="tituloefrase">
+          <h1 id="titlesobre"> Conheça mais nossos eventos</h1>
+          <p id="parasobre">Nos nossos eventos algumas qualidades estão presentes:</p>
+          
+        </div>
+        <div id="quadrados-qualidades">
+          <div id="qualidade1"> Experiência <br> <i id="like" class ="fa-solid fa-thumbs-up"></i></div>
+          <div id="qualidade2"> Compromisso <br> <i id="check" class="fa-solid fa-check"></i></div>
+          <div id="qualidade3">Entrega rápida <br> <i id="truck" class="fa-solid fa-truck-fast"></i></div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="cardapio">
+      <p>
+        <h1>Cardápio</h1>
+        <h2>Nossos pratos especiais:</h2>
+      </p>
+
+      <div id="dishes">
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <img class="dishimg1" src="imagens/dish1.png" alt="">
+
+          <h3 class="dish-title">Lorem Ipsum</h3>
+          <p class="dish-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+          <div class="dish-rate">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span>(500+)</span>
+        </div>
+
+          <div class="dish-price">
+            <h4>R$20,00</h4>
+            <button class="shopping">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+
+        
+
+
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <img class="dishimg2" src="imagens/dish2.png" alt="">
+
+          <h3 class="dish-title">Lorem Ipsum</h3>
+          <p class="dish-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+          <div class="dish-rate">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span>(500+)</span>
+        </div>
+
+          <div class="dish-price">
+            <h4>R$20,00</h4>
+            <button class="shopping">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+
+        
+
+        
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <img class="dishimg3" src="imagens/dish3.png" alt="">
+
+          <h3 class="dish-title">Lorem Ipsum</h3>
+          <p class="dish-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+          <div class="dish-rate">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span>(500+)</span>
+        </div>
+
+          <div class="dish-price">
+            <h4>R$20,00</h4>
+            <button class="shopping">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+
+        
+
+        
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <img  class="dishimg4" src="imagens/dish4.png" alt="">
+
+          <h3 class="dish-title">Lorem Ipsum</h3>
+          <p class="dish-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+          <div class="dish-rate">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span>(500+)</span>
+        </div>
+
+          <div class="dish-price">
+            <h4>R$20,00</h4>
+            <button class="shopping">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="testimonials">
+        <img src="imagens/chef.png" class="testimonial_chef"   alt="">
+
+        <div id="testimonials_content">
+          <h2 class="section-title">
+            Depoimentos
+          </h2>
+          <h3 class="section-subtitle">
+            O que os clientes falam sobre nós
+          </h3>
+
+          <div id="feedbacks1">
+            <div class="feedback">
+              <img src="imagens/avatar.png" class="feedback-avatar" alt="">
+
+              <div class="feedback-content">
+                <p>
+                  Fulana de Tal
+                
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt ab officia quis odit, aut iure ducimus provident harum nostrum. Alias architecto aspernatur recusandae cupiditate, dolore impedit id incidunt aperiam. Veritatis!
+              </p>
+              </div>
+              </div>
+
+              <div class="feedback">
+                <img src="imagens/avatar.png" class="feedback-avatar" alt="">
+  
+                <div class="feedback-content">
+                  <p>
+                    Fulana de Tal
+                  
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt ab officia quis odit, aut iure ducimus provident harum nostrum. Alias architecto aspernatur recusandae cupiditate, dolore impedit id incidunt aperiam. Veritatis!
+                </p>
+                </div>
+              </div> 
+            </div>
+            <button class="avaliações">
+              Ver mais avaliações.
+           </button>
+          </div>
+        </div>
+      </section> 
+
+      <footer>
+        <img src="imagens/wave (1).svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+              &copy 2025 Camilly Silva
+            </span>
+            
+      <div class="sociais_buttons">
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+        </div>
+
+      </footer>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
