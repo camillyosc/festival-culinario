@@ -3,6 +3,8 @@ footer {
 }
 
 
+
+
 #footer_items {
   display: flex;
   justify-content: space-between;
@@ -14,6 +16,8 @@ footer {
   color: #1d1d1d;
   font-weight: 500;
 }
+
+
 
 
 @media screen and (max-width: 600px) {

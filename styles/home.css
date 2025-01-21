@@ -5,6 +5,7 @@
   min-height: 100vh;
   display: flex;
   padding-top: 120px;
+ 
   
 }
 
@@ -103,7 +104,7 @@ div#banner img {
 
 @media screen and (max-width: 1170px) {
   #inicio {
-    min-height: 100%;
+    min-height: 100vh;
     margin-top: 0px;
   }
 
@@ -123,7 +124,7 @@ div#banner img {
 @media screen and (max-width: 450px) {
   .cta_buttons {
     display: flex;
-    gap:30px;
+    gap:10px;
     margin-bottom: 30px;
     color: white;
     
@@ -132,12 +133,12 @@ div#banner img {
 
 
   .cta_buttons a {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     text-decoration: none;
     color: var(--color-primary-2);
     font-weight: 600;
     background-color: white;
-    padding: 14px;
+    padding: 5px;
     border-radius: 8px;
     box-shadow: 1px 3px 9px 1px rgba(0, 0, 0, 0.247) ;
     
@@ -148,11 +149,18 @@ div#banner img {
     padding: 4px;
     border-radius: 5px;
     color: white;
-    margin-right: 5px;
+   
   
     
     
   }
+
+  
+.title {
+  color:#e52323;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
 }
 
 
