@@ -31,4 +31,8 @@ footer {
     .imgfooter {
     width: 100vw;
     }
+
+    footer {
+      display: none;
+    }
 }
