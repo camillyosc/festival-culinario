@@ -27,12 +27,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 
 
 body {
   background-color: #fff0eb;
+  overflow: hidden;
   
   
 }
