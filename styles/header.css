@@ -176,7 +176,9 @@ header {
     color: rgb(30, 126, 39);
   }
 
- 
+ header {
+  width: 100vw;
+ }
 
 
 }
