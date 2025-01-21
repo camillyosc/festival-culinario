@@ -28,6 +28,7 @@
 html {
   scroll-behavior: smooth;
   overflow: hidden;
+  width: 100%;
 }
 
 
@@ -35,7 +36,7 @@ html {
 body {
   background-color: #fff0eb;
   overflow: hidden;
-  
+  width: 100%;
   
 }
 
