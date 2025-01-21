@@ -27,5 +27,7 @@ footer {
     gap: 20px;
   }
 
-
+    .imgfooter {
+    width: 100vw;
+    }
 }
